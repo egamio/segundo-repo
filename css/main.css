@@ -1,0 +1,81 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.ttf');
+}
+body{
+	background-color: #363636;
+}
+.contact-form{
+	width: 332px;
+	height: 328px;
+	border-radius: 5px;
+	background-color: #fff4e8;
+}
+.header-form{
+width: 91px;
+	height: 13px;
+	font-family: Raleway;
+	color: #594838;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 18px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+	text-align:center;
+	padding-top: 10px;
+	}
+.header-form #header-line{
+	opacity:0.1;
+}
+.content-form{
+	margin-top:-10px;
+	margin-left:35px;
+}
+
+.contact-form #name{
+	width: 265px;
+	height: 34px;
+	border-radius: 3px;
+	border: thin;
+	background:url('../images/user_icon.png') no-repeat scroll 10px 3px, #ffe4c6 ;
+	padding-left:40px;
+	box-sizing:border-box;
+}
+	
+.contact-form #email{
+	width: 265px;
+	height: 34px;
+	border-radius: 3px;
+	border: thin;
+	background:url(../images/email_icon.png) no-repeat scroll 10px 3px, #ffe4c6 ;
+	margin-top: -7px;
+	padding-left:40px;
+	box-sizing:border-box;
+}
+
+.contact-form #message{
+	width: 265px;
+	height: 94px;
+	border-radius: 3px;
+	border: thin;
+	background:url(../images/message_icon.png) no-repeat scroll 10px 3px, #ffe4c6 ;
+	resize:none;
+	margin-top: -7px;
+	padding-left:40px;
+	box-sizing:border-box;
+	
+}
+	
+.contact-form button{
+	width: 125px;
+	height: 40px;
+	border-radius: 3px;
+	background-image: url(../images/send.png);
+	border: none;
+	margin-top: -10px;
+	margin-left:140px;
+	
+}
+.contact-literal{
+	margin-left:100px;
+}
