@@ -22,7 +22,7 @@
 			
 		 if(mail($to, $subject, $mensaje, $headers))
 		 {
-			 $result = "Gracias por su mensaje";
+			 $result = "thank you by your message";
 		 }
 		 else
 		 {
